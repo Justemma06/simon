@@ -45,4 +45,8 @@ Simon.prototype.showSequence = function (element) {
     break;
   }
 };
+Simon.prototype.changeLevel = function () {
+  this.levelCounter++;
+  $("#level-title").text(`Level: ${this.levelCounter}`);
   
+};
