@@ -8,13 +8,14 @@ body {
     font-family: cursive;
     font-size: 3rem;
     /* margin: 5%; */
-    color: #FEF2BF;
+    color: #dfd6ad;
 }
 
 .container {
     display: block;
     width: 50%;
     margin: auto;
+    margin-left: 400px;
 
 }
 
@@ -44,6 +45,14 @@ body {
     height: 70px;
     margin-left: 15px;
     margin-top: 15px;
+}
+h5{
+    position: fixed;
+    color: whitesmoke;
+    font-weight: bold;
+    margin-top: 35px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin-left: 8px;
 }
 #inn-circle{
     background-color: white;
@@ -85,4 +94,18 @@ body {
     height: 520px;
     border: 7px solid white;
     border-radius: 20px;
+}
+#notice{
+    position: fixed;
+    width: 300px;
+    height: 200px;
+    border: 2px solid white;
+    margin-left: 20px;
+    color: white;
+    font-family: cursive;
+}
+h4{
+    font-weight: bold;
+    text-decoration: underline;
+    margin-top: 20px;
 }
